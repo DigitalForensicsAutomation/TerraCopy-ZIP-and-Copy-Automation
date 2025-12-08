@@ -1,0 +1,11 @@
+
+If you need to copy many small files over a network, it can take a long time even with multi-thread copying. This guide will show you how to add an entry to the TeraCopy drag-and-drop confirmation dialog for a batch file that will:
+
+Launch 7-Zip to compress and split files into 10 GB volumes.
+Use TeraCopy to copy the archive(s) to the target folder.
+Save this code to the 7zipCopy.bat file:
+
+
+Replace C:\Temp\Archive with any existing empty folder.
+
+After the copy, you can unpack the archive(s) on the destination machine.
