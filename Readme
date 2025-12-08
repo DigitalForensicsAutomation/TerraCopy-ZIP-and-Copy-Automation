@@ -1,0 +1,5 @@
+Press Win+R, type %APPDATA%\TeraCopy and press Enter.
+
+Add this text to the end of PasteMenu.ini file:
+
+
