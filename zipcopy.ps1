@@ -1,4 +1,7 @@
-﻿# ====================== CONFIGURATION ======================
+ # ====================== EXECUTION POLICY  ====================== 
+set-executionpolicy remotesigned
+
+ # ====================== CONFIGURATION ======================
 $WatchFolder     = "C:\transfer\WatchFolder"
 $TempFolder      = "C:\transfer\Temp7z"
 $TargetPath      = "C:\transfer\target"
