@@ -1,5 +1,8 @@
  # ====================== EXECUTION POLICY  ====================== 
 set-executionpolicy remotesigned
+# Run once as Admin if needed:
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine -Force
+
 
  # ====================== CONFIGURATION ======================
 $WatchFolder     = "C:\transfer\WatchFolder"
